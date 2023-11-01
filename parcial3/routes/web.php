@@ -25,4 +25,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::resource('personas', App\Http\Controllers\PersonaController::class);
 Route::resource('marcas', App\Http\Controllers\MarcaController::class);
 Route::resource('dosis', App\Http\Controllers\DosiController::class);
-Route::resource('aplicacion-vacuna', App\Http\Controllers\AplicacionVacunaController::class);
+Route::resource('aplicaciones', App\Http\Controllers\AplicacioneController::class);

@@ -61,7 +61,7 @@
                             <a class="nav-link" href="{{route('dosis.index')}}">Dosis</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{route('aplicacion-vacuna.index')}}">Aplicacion de Vacuna</a>
+                            <a class="nav-link" href="{{route('aplicaciones.index')}}">Aplicacion de Vacuna</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
